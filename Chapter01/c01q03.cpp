@@ -12,7 +12,7 @@
  *          Enter another integer: 4
  *          6 + 4 is 10.
  *          6 - 4 is 2.
- * @version 0.3.0
+ * @version 0.4.0
  * @date    2022-05-05
  */
 
@@ -30,7 +30,9 @@ int main()
     int y {0};
     std::cin >> y;
 
-
+    // output answers
+    std::cout << x << " + " << y << " is " << x + y << ".\n";
+    std::cout << x << " - " << y << " is " << x - y << ".\n";
 
     return 0;
 }
