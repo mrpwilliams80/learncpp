@@ -16,3 +16,11 @@
  * @date    2022-05-05
  */
 
+#include <iostream>
+
+int main()
+{
+    // code here
+
+    return 0;
+}
