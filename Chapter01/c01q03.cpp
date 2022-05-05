@@ -27,7 +27,7 @@ int main()
 
     // get second value
     std::cout << "Enter another integer: ";
-    int y {0};
+    int y {0}; // value initialisation [int y {}] is preffered for unused values
     std::cin >> y;
 
     // output answers

@@ -14,10 +14,17 @@ Enter another integer: 4
 
 <br>
 
-#### ANSWER
+### ANSWER
+**Output**
+
+![Console Output](c01q03.png "Console Output")
+
+**Code**
+
 See [c01q03.cpp](./c01q03.cpp)
+
 
 <br>
 
-#### SOLUTION
+### SOLUTION
 [@learncpp.com](https://www.learncpp.com/cpp-tutorial/chapter-1-summary-and-quiz#cpp_solution_id_2)
