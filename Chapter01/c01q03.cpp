@@ -12,7 +12,7 @@
  *          Enter another integer: 4
  *          6 + 4 is 10.
  *          6 - 4 is 2.
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-05
  */
 
@@ -20,7 +20,10 @@
 
 int main()
 {
-    // code here
+    // get first value
+    std::cout << "Enter an integer: ";
+    int x {0};
+    std::cin >> x;
 
     return 0;
 }
