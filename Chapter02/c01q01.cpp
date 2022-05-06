@@ -12,9 +12,19 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-06
  */
+
+#include <iostream>
+
+int readNumber ()
+{
+    std::cout << "Please enter a number: ";
+    int x {};
+    std::cin >> x;
+    return x;
+}
 
 int main()
 {
