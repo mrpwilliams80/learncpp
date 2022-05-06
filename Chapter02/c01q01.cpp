@@ -12,7 +12,7 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.2.1
+ * @version 0.3.0
  * @date    2022-05-06
  */
 
@@ -29,6 +29,11 @@ int readNumber ()
     int x {};
     std::cin >> x;
     return x;
+}
+
+void writeAnswer(int ans)
+{
+    std::cout << "The sum of both numbers is: " << ans << "\n";
 }
 
 int main()
