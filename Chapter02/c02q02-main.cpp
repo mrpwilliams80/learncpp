@@ -4,24 +4,13 @@
  * @brief   Modify the program you wrote in exercise #1 so that readNumber() and 
  *          writeAnswer() live in a separate file called. Use a forward 
  *          declaration to access them from main().
- * @version 0.1.0
+ * @version 0.1.1
  * @date    2022-05-06
  */
 
 #include <iostream>
 
-/**
- * @brief   prompt user for number and return that number
- * 
- * @return int the number entered by user
- */
-int readNumber ()
-{
-    std::cout << "Please enter a number: ";
-    int x {};
-    std::cin >> x;
-    return x;
-}
+int readNumber ();
 
 /**
  * @brief   prints a message a to the screen; assumes paramiter is the answer to 

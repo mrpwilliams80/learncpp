@@ -4,13 +4,11 @@
  * @brief   Modify the program you wrote in exercise #1 so that readNumber() and 
  *          writeAnswer() live in a separate file called. Use a forward 
  *          declaration to access them from main().
- * @version 0.1.1
+ * @version 0.1.2
  * @date    2022-05-06
  */
 
 #include <iostream>
-
-int readNumber ();
 
 /**
  * @brief   prompt user for number and return that number
