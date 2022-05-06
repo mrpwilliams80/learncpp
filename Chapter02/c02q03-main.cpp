@@ -5,14 +5,12 @@
  *          access the functions instead of using forward declarations directly 
  *          in your code (.cpp) files. Make sure your header file uses header 
  *          guards.
- * @version 0.1.0
+ * @version 0.1.1
  * @date    2022-05-06
  */
 
 #include <iostream>
-
-int readNumber ();
-void writeAnswer(int ans);
+#include "./c02q03-io.h"
 
 /**
  * @brief   prompts user for two numbers and prints the sum of the numbers to 
