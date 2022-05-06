@@ -12,7 +12,7 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.4.0
+ * @version 0.4.1
  * @date    2022-05-06
  */
 
@@ -42,6 +42,10 @@ void writeAnswer(int ans)
     std::cout << "The sum of both numbers is: " << ans << "\n";
 }
 
+/**
+ * @brief   prompts user for two numbers and prints the sum of the numbers to 
+ *          screen
+ */
 int main()
 {
     int x {readNumber()};
