@@ -12,12 +12,17 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.2.0
+ * @version 0.2.1
  * @date    2022-05-06
  */
 
 #include <iostream>
 
+/**
+ * @brief   prompt user for number and return that number
+ * 
+ * @return int the number entered by user
+ */
 int readNumber ()
 {
     std::cout << "Please enter a number: ";
