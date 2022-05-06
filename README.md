@@ -27,8 +27,8 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 - ### Chapter 03
 
-    - #### [Question 01] (Chapter03/Question01.md)
+    - #### [Question 01](Chapter03/Question01.md)
 
-    - #### [Question 02](Chapeter03/Question02.md)
+    - #### [Question 02](Chapter03/Question02.md)
   
     - #### [Question 03](Chapter03/Question03.md)
