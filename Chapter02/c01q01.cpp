@@ -12,7 +12,7 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.3.1
+ * @version 0.4.0
  * @date    2022-05-06
  */
 
@@ -44,7 +44,9 @@ void writeAnswer(int ans)
 
 int main()
 {
-    // code here
+    int x {readNumber()};
+    int y {readNumber()};
+    writeAnswer(x + y);
 
     return 0;
 }
