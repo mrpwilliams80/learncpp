@@ -12,7 +12,7 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.3.0
+ * @version 0.3.1
  * @date    2022-05-06
  */
 
@@ -31,6 +31,12 @@ int readNumber ()
     return x;
 }
 
+/**
+ * @brief   prints a message a to the screen; assumes paramiter is the answer to 
+ *          a sum
+ * 
+ * @param ans the answer to the sum to include in the message
+ */
 void writeAnswer(int ans)
 {
     std::cout << "The sum of both numbers is: " << ans << "\n";
