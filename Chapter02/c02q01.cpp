@@ -1,5 +1,5 @@
 /**
- * @file    c01q01.cpp
+ * @file    c02q01.cpp
  * @author  P. Williams <mrpwilliams80@gmail.com>
  * @brief   Write a single-file program (named main.cpp) that reads two separate 
  *          integers from the user, adds them together, and then outputs the 
@@ -12,7 +12,7 @@
  *          return value.
  *          - A main() function should be used to glue the above functions 
  *          together.
- * @version 0.4.1
+ * @version 0.4.2
  * @date    2022-05-06
  */
 
