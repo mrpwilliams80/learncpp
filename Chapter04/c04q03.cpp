@@ -12,7 +12,7 @@
  *          Enter a double value: 5
  *          Enter one of the following: +, -, *, or /: *
  *          6.2 * 5 is 31
- * @version 0.3.0
+ * @version 0.4.0
  * @date    2022-05-07
  */
 
@@ -36,7 +36,20 @@ char getOperator()
 
 int main ()
 {
-    // code
+    double x {getNumber()};
+    double y {getNumber()};
+    char op {getOperator()};
+
+    if (op == '+')
+        std::cout << x << " " << op << " " << y << " is " << x + y << '\n';
+    else if (op == '-')
+        std::cout << x << " " << op << " " << y << " is " << x - y << '\n';
+    else if  (op == '*')
+        std::cout << x << " " << op << " " << y << " is " << x * y << '\n';
+    else if (op == '/')
+        std::cout << x << " " << op << " " << y << " is " << x + y << '\n';
+    else
+        return 1;
 
     return 0;
 }
