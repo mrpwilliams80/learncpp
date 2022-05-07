@@ -12,7 +12,7 @@
  *          Enter a double value: 5
  *          Enter one of the following: +, -, *, or /: *
  *          6.2 * 5 is 31
- * @version 0.4.0
+ * @version 0.4.1
  * @date    2022-05-07
  */
 
@@ -47,7 +47,7 @@ int main ()
     else if  (op == '*')
         std::cout << x << " " << op << " " << y << " is " << x * y << '\n';
     else if (op == '/')
-        std::cout << x << " " << op << " " << y << " is " << x + y << '\n';
+        std::cout << x << " " << op << " " << y << " is " << x / y << '\n';
     else
         return 1;
 
