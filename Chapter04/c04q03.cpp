@@ -12,18 +12,26 @@
  *          Enter a double value: 5
  *          Enter one of the following: +, -, *, or /: *
  *          6.2 * 5 is 31
- * @version 0.2.0
+ * @version 0.3.0
  * @date    2022-05-07
  */
 
 #include <iostream>
 
-double getNumber ()
+double getNumber()
 {
     double x {};
     std::cout << "Enter a double value: ";
     std::cin >> x;
     return x;
+}
+
+char getOperator()
+{
+    char c {};
+    std::cout << "Enter one of the following: +, -, *, or /: ";
+    std::cin >> c;
+    return c;
 }
 
 int main ()
