@@ -12,6 +12,23 @@
  *          Enter a double value: 5
  *          Enter one of the following: +, -, *, or /: *
  *          6.2 * 5 is 31
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-07
  */
+
+#include <iostream>
+
+double getNumber ()
+{
+    double x {};
+    std::cout << "Enter a double value: ";
+    std::cin >> x;
+    return x;
+}
+
+int main ()
+{
+    // code
+
+    return 0;
+}
