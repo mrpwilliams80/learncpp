@@ -16,7 +16,7 @@
  *          Swapping the values
  *          The smaller value is 2
  *          The larger value is 4
- * @version 0.5.0
+ * @version 0.5.1
  * @date    2022-05-08
  */
 
@@ -41,11 +41,11 @@ int main ()
         int temp {smaller};
         smaller = larger;
         larger = temp;
-    }
+    } // temp dies
 
     // output
     std::cout << "The smaller value is " << smaller;
     std::cout << "The larger value is " << larger;
 
     return 0;
-}
+} // smaller & larger die
