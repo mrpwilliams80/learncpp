@@ -16,7 +16,7 @@
  *          Swapping the values
  *          The smaller value is 2
  *          The larger value is 4
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-08
  */
 
@@ -24,7 +24,10 @@
 
 int main ()
 {
-    //code
+    // prompt for smaller
+    std::cout << "Enter an integer: ";
+    int smaller {};
+    std:: cin >> smaller;
 
     return 0;
 }
