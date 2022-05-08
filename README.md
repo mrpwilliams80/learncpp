@@ -51,3 +51,5 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
     - #### [Question 01](Chapter05/Question01.md)
 
     - #### [Question 02](Chapter05/Question02.md)
+  
+    - #### [Question 03](Chapter05/Question03.md)
