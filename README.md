@@ -8,7 +8,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 - [Conventional Commits](./References/ConventionalCommits.md)
 - [Data Types and Sizes](./References/DataTypesSizes.md)
 
-## Work
+## Review
 
 - ### Chapter 01
 
@@ -53,3 +53,9 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
     - #### [Question 02](Chapter05/Question02.md)
   
     - #### [Question 03](Chapter05/Question03.md)
+
+## Research
+
+- ### Chapter 06.03
+
+    - #### [Question 01](Chapter06.03/Question01.md)
