@@ -45,3 +45,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
     - #### [Question 04](Chapter04/Question04.md)
 
     - #### [Question 05](Chapter04/Question05.md)
+
+- ### Chapter 05
+
+    - #### [Question 01](Chapter05/Question01.md)
