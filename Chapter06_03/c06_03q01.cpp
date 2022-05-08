@@ -16,7 +16,7 @@
  *          Swapping the values
  *          The smaller value is 2
  *          The larger value is 4
- * @version 0.5.1
+ * @version 0.5.2
  * @date    2022-05-08
  */
 
@@ -37,15 +37,15 @@ int main ()
     // check variable magnitude
     if (smaller > larger)
     {
-        std::cout << "Swapping the values";
+        std::cout << "Swapping the values\n";
         int temp {smaller};
         smaller = larger;
         larger = temp;
     } // temp dies
 
     // output
-    std::cout << "The smaller value is " << smaller;
-    std::cout << "The larger value is " << larger;
+    std::cout << "The smaller value is " << smaller << '\n';
+    std::cout << "The larger value is " << larger << '\n';
 
     return 0;
 } // smaller & larger die
