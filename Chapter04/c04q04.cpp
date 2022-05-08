@@ -21,12 +21,17 @@
  *          At 3 seconds, the ball is at height: 55.9 meters
  *          At 4 seconds, the ball is at height: 21.6 meters
  *          At 5 seconds, the ball is on the ground.
- * @version 0.3.0
+ * @version 0.3.1
  * @date    2022-05-08
  */
 
 #include <iostream>
 
+/**
+ * @brief   Get the Tower Height object from user
+ * 
+ * @return double The height of the tower
+ */
 double getTowerHeight()
 {
     std::cout << "Enter the height of the tower in meters: ";
@@ -35,10 +40,18 @@ double getTowerHeight()
     return x;
 }
 
-double calcHeightOfBall(int time, double towerHeight)
+/**
+ * @brief   Calculate the height of the ball above ground after falling for time 
+ *          t from a tower of height towerHeight
+ * 
+ * @param t Time is seconds that has elapsed
+ * @param h Starting height in meters, height of the tower
+ * @return double Distance remaining between the ball and ground
+ */
+double calcHeightOfBall(int t, double h)
 {
     constexpr double GRAV {9.8};
-    return towerHeight - ((GRAV * time * time) / 2);
+    return h - ((GRAV * t * t) / 2);
 }
 
 int main ()
