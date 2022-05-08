@@ -16,7 +16,7 @@
  *          Swapping the values
  *          The smaller value is 2
  *          The larger value is 4
- * @version 0.3.0
+ * @version 0.4.0
  * @date    2022-05-08
  */
 
@@ -29,10 +29,19 @@ int main ()
     int smaller {};
     std::cin >> smaller;
 
-    //prompt for larger
+    // prompt for larger
     std::cout << "Enter a larger integer: ";
     int larger {};
     std::cin >> larger;
+
+    // check variable magnitude
+    if (smaller > larger)
+    {
+        std::cout << "Swapping the values";
+        int temp {smaller};
+        smaller = larger;
+        larger = temp;
+    }
 
     return 0;
 }
