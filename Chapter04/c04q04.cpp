@@ -21,7 +21,7 @@
  *          At 3 seconds, the ball is at height: 55.9 meters
  *          At 4 seconds, the ball is at height: 21.6 meters
  *          At 5 seconds, the ball is on the ground.
- * @version 0.4.2
+ * @version 0.5.0
  * @date    2022-05-08
  */
 
@@ -75,7 +75,14 @@ void printCurrentHeight(int t, double h)
 
 int main ()
 {
-    //code
+    double h {};
+    h = getTowerHeight();
+    calcHeightOfBall(0, h);
+    calcHeightOfBall(1, h);
+    calcHeightOfBall(2, h);
+    calcHeightOfBall(3, h);
+    calcHeightOfBall(4, h);
+    calcHeightOfBall(5, h);
 
     return 0;
 }
