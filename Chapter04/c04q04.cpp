@@ -21,7 +21,7 @@
  *          At 3 seconds, the ball is at height: 55.9 meters
  *          At 4 seconds, the ball is at height: 21.6 meters
  *          At 5 seconds, the ball is on the ground.
- * @version 0.3.1
+ * @version 0.4.0
  * @date    2022-05-08
  */
 
@@ -52,6 +52,14 @@ double calcHeightOfBall(int t, double h)
 {
     constexpr double GRAV {9.8};
     return h - ((GRAV * t * t) / 2);
+}
+
+void printCurrentHeight(int t, double h)
+{
+    if (t <= 0.0)
+        std::cout << "At " << t << " seconds, the ball is on the ground.\n";
+    else
+        std::cout << "At " << t << " seconds, the ball is at height: " << h << "meters\n";
 }
 
 int main ()
