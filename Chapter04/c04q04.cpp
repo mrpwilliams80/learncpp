@@ -21,11 +21,19 @@
  *          At 3 seconds, the ball is at height: 55.9 meters
  *          At 4 seconds, the ball is at height: 21.6 meters
  *          At 5 seconds, the ball is on the ground.
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-08
  */
 
 #include <iostream>
+
+double getTowerHeight()
+{
+    std::cout << "Enter the height of the tower in meters: ";
+    double x {};
+    std::cin >> x;
+    return x;
+}
 
 int main ()
 {
