@@ -21,7 +21,7 @@
  *          At 3 seconds, the ball is at height: 55.9 meters
  *          At 4 seconds, the ball is at height: 21.6 meters
  *          At 5 seconds, the ball is on the ground.
- * @version 0.4.0
+ * @version 0.4.1
  * @date    2022-05-08
  */
 
@@ -54,6 +54,13 @@ double calcHeightOfBall(int t, double h)
     return h - ((GRAV * t * t) / 2);
 }
 
+/**
+ * @brief   Prints a message giving the balls current height from the ground, h, 
+ *          after time in seconds, t.
+ * 
+ * @param t Time in seconds ball has been falling
+ * @param h Height in meters ball is above ground.
+ */
 void printCurrentHeight(int t, double h)
 {
     if (t <= 0.0)
