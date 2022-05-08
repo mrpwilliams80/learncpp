@@ -58,4 +58,4 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 - ### Chapter 06.03
 
-    - #### [Question 01](Chapter06.03/Question01.md)
+    - #### [Question 01](Chapter06_03/Question01.md)
