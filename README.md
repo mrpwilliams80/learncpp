@@ -62,3 +62,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
     - #### [Question 01](Chapter06_03/Question01.md)
 
     - #### [Question 02](Chapter06_03/Question02.md)
+
+- ### Chapter 06.x
+
+    - #### [Question 01](Chapter06_x/Question01.md)
