@@ -22,38 +22,36 @@ Variables with **automatic duration** are created at the point of definition, an
 - Local variables
 - Function parameters
 
-Variables with static duration are created when the program begins and destroyed when the program ends. This includes:
+Variables with **static duration** are created when the program begins and destroyed when the program ends. This includes:
 - Global variables
 - Static local variables
 
-Variables with dynamic duration are created and destroyed by programmer request. This includes:
+Variables with **dynamic duration** are created and destroyed by programmer request. This includes:
 - Dynamically allocated variables
 
 ## Linkage
 
 An identifier’s linkage determines whether multiple declarations of an identifier refer to the same identifier or not.
 
-An identifier with no linkage means the identifier only refers to itself. This includes:
+An identifier with **no linkage** means the identifier only refers to itself. This includes:
 - Local variables
 - User-defined type definitions (such as enums and classes) declared inside a block
 
-An identifier with internal linkage can be accessed anywhere within the file it is declared. This includes:
+An identifier with **internal linkage** can be accessed anywhere within the file it is declared. This includes:
 - Static global variables (initialized or uninitialized)
 - Static functions
 - Const global variables
 - Functions declared inside an unnamed namespace
 - User-defined type definitions (such as enums and classes) declared inside an unnamed namespace
 
-An identifier with external linkage can be accessed anywhere within the file it is declared, or other files (via a forward declaration). This includes:
+An identifier with **external linkage** can be accessed anywhere within the file it is declared, or other files (via a forward declaration). This includes:
 - Functions
 - Non-const global variables (initialized or uninitialized)
 - Extern const global variables
 - Inline const global variables
 - User-defined type definitions (such as enums and classes) declared inside a namespace or in the global scope
 
-Identifiers with external linkage will generally cause a duplicate definition linker error if the definitions are compiled into more than one .cpp file (due to violating the one-definition rule). There are some exceptions to this rule (for types, templates, and inline functions and variables) -- we’ll cover these further in future lessons when we talk about those topics.
-
-Also note that functions have external linkage by default. They can be made internal by using the static keyword.
+*__NOTE__: Identifiers with external linkage will generally cause a duplicate definition linker error if the definitions are compiled into more than one .cpp file (due to violating the one-definition rule). There are some exceptions to this rule (for types, templates, and inline functions and variables) -- we’ll cover these further in future lessons when we talk about those topics. Also, functions have external linkage by default. They can be made internal by using the static keyword.*
 
 ## Variable scope, duration, and linkage summary
 
