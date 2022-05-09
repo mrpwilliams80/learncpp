@@ -7,6 +7,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 - [Symantic Versioning](./References/SymanticVersioning.md)
 - [Conventional Commits](./References/ConventionalCommits.md)
 - [Data Types and Sizes](./References/DataTypesSizes.md)
+- [Scope Duration and Linkage](ReferenceMaterial/ScopeDurationLinkage.md)
 
 ## Review
 
