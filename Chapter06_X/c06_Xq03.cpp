@@ -4,10 +4,19 @@
  * @brief   Complete the following program by writing the passOrFail() function, 
  *          which should return true for the first 3 calls, and false 
  *          thereafter. Do this without modifying the main() function.
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-12
  */
 #include <iostream>
+
+bool passOrFail()
+{
+    static int count {0};
+    if (++count < 4)
+        return true;
+    else
+        return false;
+}
 
 int main()
 {
