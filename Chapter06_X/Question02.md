@@ -6,6 +6,9 @@
 <br>
 
 ```cpp
+#include <iostream>
+#include "constants.h"
+
 int main()
 {
 	std::cout << "How many students are in your class? ";
