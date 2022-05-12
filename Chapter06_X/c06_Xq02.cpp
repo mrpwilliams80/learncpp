@@ -5,7 +5,7 @@
  *          If your compiler is C++17 capable, use inline constexpr variables. 
  *          Otherwise, use normal constexpr variables. max_class_size should be 
  *          35.
- * @version 0.1.1
+ * @version 0.1.3
  * @date    2022-05-12
  */
 
@@ -20,9 +20,9 @@ int main()
 
 
 	if (students > constants::max_class_size)
-		std::cout << "There are too many students in this class";
+		std::cout << "There are too many students in this class\n";
 	else
-		std::cout << "This class isn't too large";
+		std::cout << "This class isn't too large\n";
 
 	return 0;
 }
