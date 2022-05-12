@@ -1,4 +1,4 @@
-# Chapter 06.x
+# Chapter 06.X
 ## Question 01
 
 ### Fix the following program:
