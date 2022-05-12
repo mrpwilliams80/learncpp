@@ -29,7 +29,16 @@ int main()
 
 ### ANSWER
 
-*Answer here...*
+- Placed both lines following `if (num < 0)` into a single block. Identified, using linter.
+- Addition of newline character after `std::cout << "You entered: " << num;`. Identified during execution.
+
+**Output**
+
+![Console Output](c06_Xq01.png "Console Output")
+
+**Code**
+
+See [c06_Xq01.cpp](./c06_Xq01.cpp)
 
 <br>
 
