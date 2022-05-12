@@ -35,7 +35,7 @@ int main()
 
 **Code**
 
-See [c06_Xq01.cpp](./c06_Xq02.cpp) & [c06_Xq01_constants.h](c06_Xq02_constants.h)
+See [c06_Xq02.cpp](./c06_Xq02.cpp) & [c06_Xq02_constants.h](c06_Xq02_constants.h)
 
 <br>
 

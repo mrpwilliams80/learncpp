@@ -40,7 +40,7 @@ User #5: Fail
 
 **Code**
 
-See [c06_Xq01.cpp](./c06_Xq03.cpp)
+See [c06_Xq03.cpp](./c06_Xq03.cpp)
 
 <br>
 
