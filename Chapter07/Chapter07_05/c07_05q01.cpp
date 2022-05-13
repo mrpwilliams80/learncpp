@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.4.3
+ * @version 0.4.4
  * @date    2022-05-13
  */
 
@@ -67,36 +67,39 @@ int calculate (int x, int y, char op)
         case '%':
             return (x % y);
         default:
-            // original
-            /*std::cout << "ERROR: invalid operation selected!\n";*/
-            // testing std::cerr, from solution
+            /* Original */
+            // std::cout << "ERROR: invalid operation selected!\n";
+
+            /* testing std::cerr, from solution */
             std::cerr << "invalid operation selected!\n";
+            /*result: no noticeable difference but prob better practice */
+
             return 0;
     }
 }
 
 int main ()
 {
-    // get first operand
-    int x {};
-    x = getInt();
+    /* Original */
+    // // get first operand
+    // int x {};
+    // x = getInt();
 
-    // get second operand
-    int y {};
-    y = getInt();
+    // // get second operand
+    // int y {};
+    // y = getInt();
 
-    // get operator
-    char op {};
-    op = getOperator();
+    // // get operator
+    // char op {};
+    // op = getOperator();
 
-    // perform calculation
-    int ans {};
-    ans = calculate(x, y, op);
-    // Alternative for later testing =>
-    // ans = calculate(getInt(), getInt(), getOperator());
-    // if works, is better or worse??
-    // not as clear? doesn't easily allow for detailed output
-    std::cout << x << ' ' << op << ' ' << y << " = " << ans << '\n';
+    // // perform calculation
+    // int ans {};
+    // ans = calculate(x, y, op);
+    // std::cout << x << ' ' << op << ' ' << y << " = " << ans << '\n';
 
+    /* Testing Alternative */
+    std::cout << calculate(getInt(), getInt(), getOperator());
+  
     return 0;
 }
