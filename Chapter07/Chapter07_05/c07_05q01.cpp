@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.2.0
+ * @version 0.2.1
  * @date    2022-05-13
  */
 
@@ -27,6 +27,11 @@ int getInt()
     return number;
 }
 
+/**
+ * @brief   Get a character from the user
+ * 
+ * @return char the char entered by the user
+ */
 char getOperation()
 {
     std::cout   << "Enter a character to perform a mathamatical operation -\n"
