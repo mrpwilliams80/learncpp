@@ -75,4 +75,10 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
   - #### Chapter 06 Conclusion
 
-    - #### [Conclusion](Chapter06/Chapter06_Conclusion.md) 
+    - #### [Conclusion](Chapter06/Chapter06_Conclusion.md)
+
+- ### Chapter 07
+  
+  - #### Chapter 07.05
+  
+    - #### [Question 01](Chapter07/Chapter07_05/Question01.md)
