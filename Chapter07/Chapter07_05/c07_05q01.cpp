@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.3.0
+ * @version 0.3.1
  * @date    2022-05-13
  */
 
@@ -41,6 +41,15 @@ char getOperation()
     return op;
 }
 
+/**
+ * @brief   use char op to select and perform a mathamatical operation on int x 
+ *          and int y
+ * 
+ * @param x first operand
+ * @param y second operand
+ * @param op character representing mathmtical operation (+, -, *, / or %)
+ * @return int result of mathmatical operation
+ */
 int calculate (int x, int y, char op)
 {
     switch (op)
