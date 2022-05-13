@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.2.1
+ * @version 0.3.0
  * @date    2022-05-13
  */
 
@@ -39,6 +39,28 @@ char getOperation()
     char op {};
     std::cin >> op;
     return op;
+}
+
+int calculate (int x, int y, char op)
+{
+    switch (op)
+    {
+        case '+':
+            return (x + y);
+            break;
+        case '-':
+            return (x - y);
+            break;
+        case '*':
+            return (x * y);
+        case '/':
+            return (x / y);
+        case '%':
+            return (x % y);
+        default:
+            std::cout << "ERROR: invalid operation selected!";
+            return 0;
+    }
 }
 
 int main ()
