@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.4.2
+ * @version 0.4.3
  * @date    2022-05-13
  */
 
@@ -67,7 +67,10 @@ int calculate (int x, int y, char op)
         case '%':
             return (x % y);
         default:
-            std::cout << "ERROR: invalid operation selected!\n";
+            // original
+            /*std::cout << "ERROR: invalid operation selected!\n";*/
+            // testing std::cerr, from solution
+            std::cerr << "invalid operation selected!\n";
             return 0;
     }
 }
