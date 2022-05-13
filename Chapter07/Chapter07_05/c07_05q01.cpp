@@ -8,6 +8,23 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.0.0
+ * @version 0.1.0
  * @date    2022-05-13
  */
+
+#include <iostream>
+
+int getInt()
+{
+    std::cout << "Enter an integer: ";
+    int number {};
+    std::cin >> number;
+    return number;
+}
+
+int main ()
+{
+    //code
+
+    return 0;
+}
