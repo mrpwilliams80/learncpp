@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.3.1
+ * @version 0.4.0
  * @date    2022-05-13
  */
 
@@ -32,7 +32,7 @@ int getInt()
  * 
  * @return char the char entered by the user
  */
-char getOperation()
+char getOperator()
 {
     std::cout   << "Enter a character to perform a mathamatical operation -\n"
                 << "+, -, *, /, or % (modulus): ";
@@ -74,7 +74,26 @@ int calculate (int x, int y, char op)
 
 int main ()
 {
-    //code
+    // get first operand
+    int x {};
+    x = getInt();
+
+    // get second operand
+    int y {};
+    y = getInt();
+
+    // get operator
+    char op {};
+    op = getOperator();
+
+    // perform calculation
+    int ans {};
+    ans = calculate(x, y, op);
+    // Alternative for later testing =>
+    // ans = calculate(getInt(), getInt(), getOperator());
+    // if works, is better or worse??
+    // not as clear? doesn't easily allow for detailed output
+    std::cout << x << ' ' << op << ' ' << y << " = " << ans << '\n';
 
     return 0;
 }
