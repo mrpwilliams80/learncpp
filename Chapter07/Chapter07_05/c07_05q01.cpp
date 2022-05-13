@@ -8,7 +8,7 @@
  *          result. If an invalid operator is passed into the function, the 
  *          function should print an error. For the division operator, do an 
  *          integer division.
- * @version 0.4.4
+ * @version 0.4.5
  * @date    2022-05-13
  */
 
@@ -67,12 +67,12 @@ int calculate (int x, int y, char op)
         case '%':
             return (x % y);
         default:
-            /* Original */
+            // /* Original */
             // std::cout << "ERROR: invalid operation selected!\n";
 
-            /* testing std::cerr, from solution */
-            std::cerr << "invalid operation selected!\n";
-            /*result: no noticeable difference but prob better practice */
+            /* Testing std::cerr, from solution */
+            std::cerr << "ERROR: invalid operation selected!\n";
+            /*result: no noticeable difference; prob better practice */
 
             return 0;
     }
@@ -81,25 +81,31 @@ int calculate (int x, int y, char op)
 int main ()
 {
     /* Original */
-    // // get first operand
-    // int x {};
-    // x = getInt();
+    // get first operand
+    int x {};
+    x = getInt();
 
-    // // get second operand
-    // int y {};
-    // y = getInt();
+    // get second operand
+    int y {};
+    y = getInt();
 
-    // // get operator
-    // char op {};
-    // op = getOperator();
+    // get operator
+    char op {};
+    op = getOperator();
 
-    // // perform calculation
-    // int ans {};
-    // ans = calculate(x, y, op);
-    // std::cout << x << ' ' << op << ' ' << y << " = " << ans << '\n';
+    // perform calculation
+    int ans {};
+    ans = calculate(x, y, op);
+    std::cout << x << ' ' << op << ' ' << y << " = " << ans << '\n';
 
-    /* Testing Alternative */
-    std::cout << calculate(getInt(), getInt(), getOperator());
+    // /* Testing Alternative */
+    // std::cout << calculate(getInt(), getInt(), getOperator()) << '\n';
+    /* performs in wrong order, reverse */
+
+    // /* Testing Alternative */
+    // int ans {calculate(getInt(), getInt(), getOperator())};
+    // std::cout << ans << '\n';
+    // /* Doesn't seem worth it. No detailed output; not easier to read */
   
     return 0;
 }
