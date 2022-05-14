@@ -32,13 +32,8 @@ int main()
 <br>
 
 ### ANSWER
-**Output**
 
-![Console Output](c07_07q01.png "Console Output")
-
-**Code**
-
-See [c07_05q01.cpp](./c07_07q01.cpp)
+The variable needs to be reinitialised to re-start the count for the inner loop from the beginning for each iteration of the outter loop.
 
 <br>
 
