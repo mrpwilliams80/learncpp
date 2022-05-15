@@ -15,7 +15,7 @@
 
 **Code**
 
-See [c07_09q01.cpp](./c07_09q02.cpp)
+See [c07_09q02.cpp](./c07_09q02.cpp)
 
 <br>
 
