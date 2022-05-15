@@ -7,7 +7,7 @@
  *              3 2 1
  *            4 3 2 1
  *          5 4 3 2 1
- * @version 0.1.1
+ * @version 0.1.2
  * @date    2022-05-15
  */
 #include <iostream>
@@ -34,8 +34,8 @@ int main ()
                 std::cout << characterCount << ' ';
                 --characterCount;
             }
-                std::cout << '\n';
         }
+        std::cout << '\n';
         --lineCount;
         ++charValue;
         }
