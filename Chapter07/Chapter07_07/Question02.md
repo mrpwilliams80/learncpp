@@ -9,11 +9,11 @@
 
 **Output**
 
-![Console Output](c07_07q01.png "Console Output")
+![Console Output](c07_07q02.png "Console Output")
 
 **Code**
 
-See [c07_07q01.cpp](./c07_07q01.cpp)
+See [c07_07q02.cpp](./c07_07q02.cpp)
 
 <br>
 
