@@ -96,3 +96,5 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
   - #### Chapter 07.09
 
     - #### [Question 01](Chapter07/Chapter07_09/Question01.md)
+
+    - #### [Question 02](Chapter07/Chapter07_09/Question02.md)
