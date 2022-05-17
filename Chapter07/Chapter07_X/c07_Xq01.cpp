@@ -3,29 +3,30 @@
  * @author  P. Williams <mrpwilliams80@gmail.com>
  * @brief   Take the program below and modify it so that the ball falls for as 
  *          many seconds as needed until it reaches the ground.
- * @version 0.1.0
+ * @version 0.2.0
  * @date    2022-05-17
  */
 
 #include <iostream>
 #include "c07_Xq01_constants.h"
 
-double calculateHeight(double initialHeight, int seconds)
+double calculateCurrentHeight(double initialHeight, int seconds)
 {
     double distanceFallen { myConstants::gravity * seconds * seconds / 2 };
     double heightNow { initialHeight - distanceFallen };
 
-    // Check whether we've gone under the ground
-    // If so, set the height to ground-level
-    if (heightNow < 0.0)
-        return 0.0;
-    else
-        return heightNow;
+    return heightNow;
 }
 
-void calculateAndPrintHeight(double initialHeight, int time)
+void printCurrentHeight(double currentHeight, int time)
 {
-    std::cout << "At " << time << " seconds, the ball is at height: " << calculateHeight(initialHeight, time) << "\n";
+    if (currentHeight < 0.0)
+    {
+        currentHeight = 0.0;
+    }
+
+    std::cout   << "At " << time << " seconds, the ball is at height: " 
+                << currentHeight << "\n";
 }
 
 int main()
@@ -34,12 +35,15 @@ int main()
     double initialHeight {};
     std::cin >> initialHeight;
 
-    calculateAndPrintHeight(initialHeight, 0);
-    calculateAndPrintHeight(initialHeight, 1);
-    calculateAndPrintHeight(initialHeight, 2);
-    calculateAndPrintHeight(initialHeight, 3);
-    calculateAndPrintHeight(initialHeight, 4);
-    calculateAndPrintHeight(initialHeight, 5);
+    for (int sec {1}; ; sec++)
+    {
+        double currentHeight {calculateCurrentHeight(initialHeight, sec)};
+        printCurrentHeight(currentHeight, sec);
+        if (currentHeight < 0.0)
+        {
+            break;
+        }     
+    }
 
     return 0;
 }
