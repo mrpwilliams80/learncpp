@@ -52,8 +52,6 @@ int main()
 
 See project [c07_Xq02](./c07_Xq02/)
 
-**!!TBD - test link**
-
 <br>
 
 ### SOLUTION
