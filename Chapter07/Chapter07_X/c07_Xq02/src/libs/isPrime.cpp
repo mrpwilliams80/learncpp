@@ -22,7 +22,7 @@ bool isPrime(int x)
 
     int intRoot = (int)std::sqrt(x);
 
-    for (int y = 2; y < intRoot; ++y)
+    for (int y = 2; y <= intRoot; ++y)
     {
         if (x % y == 0)
         {
