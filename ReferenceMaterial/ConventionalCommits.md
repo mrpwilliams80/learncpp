@@ -2,7 +2,7 @@
 
 ## Structure
 
-Under Convential Commits a commit message follows the basic structure: 
+Under Conventional Commits a commit message follows the basic structure: 
 
 ```
 <type>[optional scope]: <description>

@@ -20,8 +20,10 @@ bool isPrime(int x)
     its square root. std::sqrt(x) (in the <cmath> header) returns the square 
     root of x. */
 
+    // get square root of x (cast to int)
     int intRoot = (int)std::sqrt(x);
 
+    // test for divisor less than or equal to square root
     for (int y = 2; y <= intRoot; ++y)
     {
         if (x % y == 0)

@@ -50,9 +50,9 @@ int main()
 
 **Code**
 
-See [c07_Xq01.cpp](./c07_Xq01.cpp) & [c07_Xq01_constants.h](./c07_Xq01_constants.h)
+See project [c07_Xq02](./c07_Xq02/)
 
-**!!TBD - refactor above link!!**
+**!!TBD - test link**
 
 <br>
 
