@@ -105,4 +105,4 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
     - #### [Question 01](Chapter07/Chapter07_X/Question01.md)
   
-    - #### [Question 02](Chapter07/Chapter07_X/Question01.md)
+    - #### [Question 02](Chapter07/Chapter07_X/Question02.md)
