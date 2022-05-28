@@ -5,7 +5,7 @@
  *          divisible (with no remainder) only by 1 and itself. Complete the 
  *          following program by writing the isPrime() function using a 
  *          for-loop. When successful, the program will print “Success!”.
- * @version 0.0.0
+ * @version 0.1.0
  * @date    2022-05-28
  */
 
