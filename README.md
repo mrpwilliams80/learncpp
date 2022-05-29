@@ -17,6 +17,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 - ### Chapter 01
 
 </summary>
+<p>
 
   - #### [Question 01](Chapter01/Question01.md)
 
@@ -24,6 +25,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
   - #### [Question 03](Chapter01/Question03.md)
 
+</p>
 </details>
 
 
