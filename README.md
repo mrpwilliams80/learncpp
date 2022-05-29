@@ -13,9 +13,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 <details>
 <summary>
-
 - ### Chapter 01
-
 </summary>
 <p>
 
@@ -28,9 +26,13 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 </p>
 </details>
 
+<!-- gap -->
 
-
+<details>
+<summary>
 - ### Chapter 02
+</summary>
+<p>
 
   - #### [Question 01](Chapter02/Question01.md)
 
@@ -38,7 +40,16 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
   - #### [Question 03](Chapter02/Question03.md)
 
+</p>
+</details>
+
+<!-- gap -->
+
+<details>
+<summary>
 - ### Chapter 03
+</summary>
+<p>
 
   - #### [Question 01](Chapter03/Question01.md)
 
@@ -46,7 +57,16 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
   - #### [Question 03](Chapter03/Question03.md)
 
+</p>
+</details>
+
+<!-- gap -->
+
+<details>
+<summary>
 - ### Chapter 04
+</summary>
+<p>
 
   - #### [Question 01](Chapter04/Question01.md)
 
@@ -58,13 +78,28 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
   - #### [Question 05](Chapter04/Question05.md)
 
+</p>
+</details>
+
+<!-- gap -->
+
+</p>
+</details>
 - ### Chapter 05
+<details>
+<summary>
+
+</summary>
+<p>
 
   - #### [Question 01](Chapter05/Question01.md)
 
   - #### [Question 02](Chapter05/Question02.md)
 
   - #### [Question 03](Chapter05/Question03.md)
+
+</p>
+</details>
 
 ## Research
 
