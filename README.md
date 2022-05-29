@@ -91,13 +91,10 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 <!-- gap -->
 
-</p>
-</details>
-
-### Chapter 05
-
 <details>
 <summary>
+
+### Chapter 05
 
 </summary>
 <p>
@@ -113,7 +110,13 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 ## Research
 
-- ### Chapter 06
+<details>
+<summary>
+
+### Chapter 06
+
+</summary>
+<p>
 
   - #### Chapter 06.03
 
@@ -133,36 +136,67 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
     - #### [Conclusion](Chapter06/Chapter06_Conclusion.md)
 
-- ### Chapter 07
+</p>
+</details>
+
+<!-- gap -->
+
+<details>
+<summary>
+
+### Chapter 07
+
+</summary>
+<p>
   
-  - #### Chapter 07.05
-  
-    - #### [Question 01](Chapter07/Chapter07_05/Question01.md)
+- #### Chapter 07.05
 
-  - #### Chapter 07.07
+  - #### [Question 01](Chapter07/Chapter07_05/Question01.md)
 
-    - #### [Question 01](Chapter07/Chapter07_07/Question01.md)
+- #### Chapter 07.07
 
-    - #### [Question 02](Chapter07/Chapter07_07/Question02.md)
+  - #### [Question 01](Chapter07/Chapter07_07/Question01.md)
 
-    - #### [Question 03](Chapter07/Chapter07_07/Question03.md)
+  - #### [Question 02](Chapter07/Chapter07_07/Question02.md)
 
-    - #### [Question 04](Chapter07/Chapter07_07/Question04.md)
+  - #### [Question 03](Chapter07/Chapter07_07/Question03.md)
 
-  - #### Chapter 07.09
+  - #### [Question 04](Chapter07/Chapter07_07/Question04.md)
 
-    - #### [Question 01](Chapter07/Chapter07_09/Question01.md)
+- #### Chapter 07.09
 
-    - #### [Question 02](Chapter07/Chapter07_09/Question02.md)
+  - #### [Question 01](Chapter07/Chapter07_09/Question01.md)
 
-    - #### [Question 03](Chapter07/Chapter07_09/Question03.md)
-  
-  - #### Chapter 07.X
+  - #### [Question 02](Chapter07/Chapter07_09/Question02.md)
 
-    - #### [Question 01](Chapter07/Chapter07_X/Question01.md)
-  
-    - #### [Question 02](Chapter07/Chapter07_X/Question02.md)
+  - #### [Question 03](Chapter07/Chapter07_09/Question03.md)
 
-    - #### [Question 03](Chapter07/Chapter07_X/Question03.md)
+- #### Chapter 07.X
 
-    - #### [Question 04](Chapter07/Chapter07_X/Question04.md)
+  - #### [Question 01](Chapter07/Chapter07_X/Question01.md)
+
+  - #### [Question 02](Chapter07/Chapter07_X/Question02.md)
+
+  - #### [Question 03](Chapter07/Chapter07_X/Question03.md)
+
+  - #### [Question 04](Chapter07/Chapter07_X/Question04.md)
+
+</p>
+</details>
+
+<!-- gap -->
+
+<details>
+<summary>
+
+### Chapter 08
+
+</summary>
+<p>
+
+
+
+</p>
+</details>
+
+<!-- gap -->
