@@ -13,7 +13,11 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 <details>
 <summary>
+<p>
+
 - ### Chapter 01
+   
+</p>
 </summary>
 <p>
 
