@@ -14,7 +14,7 @@
  *          For this quiz, assume the user enters a valid number. Use a Mersenne 
  *          Twister PRNG, and seed it using a std::seed_seq with 8 results from 
  *          std::random_device.
- * @version 0.1.0
+ * @version 0.2.1
  * @date    2022-05-28
  */
 
@@ -22,7 +22,17 @@
 
 int main ()
 {
-    std::cout << getRand() << '\n';
-    
+    while(true)
+    {
+        std::cout << "Simulating game...\n";
+
+        if(!playAgain())
+        {
+            break;
+        } 
+    }
+
+    std::cout << "Thank you for playing.\n";
+
     return 0;
 }
