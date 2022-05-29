@@ -4,7 +4,7 @@
  * @brief   Update c07_Xq03 to handle invalid input (e.g. ‘x’) or valid input 
  *          with extraneous characters (e.g. “43x”) when the user is guessing a 
  *          number.
- * @version 0.0.1
+ * @version 0.1.0
  * @date    2022-05-28
  */
 
