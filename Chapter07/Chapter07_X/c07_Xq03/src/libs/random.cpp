@@ -1,5 +1,10 @@
 #include "../hdrs/master.hpp"
 
+/**
+ * @brief   generate a Mersenne Twister random number between 1 and 100 
+ * 
+ * @return int random number between 1 and 100
+ */
 int getRand()
 {
     // instantiate random device

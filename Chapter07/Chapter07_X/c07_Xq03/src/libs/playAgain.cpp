@@ -1,5 +1,11 @@
 #include "../hdrs/master.hpp"
 
+/**
+ * @brief   Ask user if they wish to play again; test answer is valid
+ * 
+ * @return true if user responds 'y'
+ * @return false if user responds 'n'
+ */
 bool playAgain()
 {
     while (true)
