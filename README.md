@@ -15,7 +15,7 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 <summary>
 <p>
 
-- ### Chapter 01
+### Chapter 01
    
 </p>
 </summary>
@@ -34,7 +34,9 @@ A record of work completed as part of the syllabus presented on [learncpp.com](h
 
 <details>
 <summary>
-- ### Chapter 02
+
+### Chapter 02
+
 </summary>
 <p>
 
